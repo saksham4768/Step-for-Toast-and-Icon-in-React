@@ -1,0 +1,12 @@
+1. Install React-Toastify
+    npm install react-toastify
+
+2.  Import Toastify css and ToastContainer component in your app.js
+    import {ToastContainer} from 'react-toastify';
+    import 'react-toastify/dist/ReactToastify.css';
+
+3. In your component where you want to display the toast, import toast from react-toastify
+    import {toast} from 'react-toastify';
+
+4. To display the toast, call the toast function with a message as its argument. For example to display a success message.
+    toast.success('Item added to cart !');

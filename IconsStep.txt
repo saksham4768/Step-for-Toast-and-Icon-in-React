@@ -1,0 +1,5 @@
+1. Install react-icons.
+    npm install react-icons
+
+2.  import the icon component that you want to use from the library. For example, to use the font awesome's "fa-thumbs-up" icon
+    import {FaThumbsUp} from 'react-icons/fa';
